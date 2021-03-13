@@ -25,10 +25,6 @@ var mouse = {
     y: undefined
 }
 
-var click = {
-    x: undefined,
-    y: undefined
-}
 
 window.addEventListener('mousemove', 
     function(event) {
@@ -36,10 +32,7 @@ window.addEventListener('mousemove',
         mouse.y = event.y;
 });
 
-window.addEventListener('click', function(event) {
-    
 
-}
 
 
 window.addEventListener('resize', 
