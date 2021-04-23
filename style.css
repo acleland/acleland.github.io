@@ -1,0 +1,40 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+body {
+    background-color: white);
+}
+nav {
+    background-color: #A993BF;
+}
+
+div class="intro" {
+    
+}
+
+
+/* Graphic Design color theme from adobe
+/* Color Theme Swatches in Hex */
+.Graphic-Design-1-hex { color: #A993BF; }
+.Graphic-Design-2-hex { color: #3E8C76; }
+.Graphic-Design-3-hex { color: #F2B950; }
+.Graphic-Design-4-hex { color: #F2CFBB; }
+.Graphic-Design-5-hex { color: #F25749; }
+
+/* Color Theme Swatches in RGBA */
+.Graphic-Design-1-rgba { color: rgba(169, 147, 191, 1); }
+.Graphic-Design-2-rgba { color: rgba(61, 140, 117, 1); }
+.Graphic-Design-3-rgba { color: rgba(242, 185, 79, 1); }
+.Graphic-Design-4-rgba { color: rgba(242, 206, 186, 1); }
+.Graphic-Design-5-rgba { color: rgba(242, 86, 72, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Graphic-Design-1-hsla { color: hsla(270, 25, 66, 1); }
+.Graphic-Design-2-hsla { color: hsla(163, 38, 39, 1); }
+.Graphic-Design-3-hsla { color: hsla(39, 86, 63, 1); }
+.Graphic-Design-4-hsla { color: hsla(22, 68, 84, 1); }
+.Graphic-Design-5-hsla { color: hsla(5, 86, 61, 1); } 

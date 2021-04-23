@@ -4,11 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Andrea Cleland</title>
 </head>
 <body>
     <h1>Andrea's Super Serious Professional Page</h1>
+    <nav>
+            <a href="#home">Home</a>
+            <ul>
+                <li>
+                    <a href="#Home">Bio</a>
+                </li>
+                <li>
+                    <a href="#Home">Projects</a>
+                </li>
+                <li>
+                    <a href="#Home">Work Experience</a>
+                </li>
+                <li>
+                    <a href="#Home">Contact</a>
+                </li>
+    
+            </ul>
+    </nav>
+
+    <div class="intro">
+        <h2>Hi I'm Andrea (She/Her)</h2>
+        <img src="Images/githubprofilepic.jfif">
+        <p>
+            I'm a budding software developer. I finished my Master's in Computer Science from 
+            Portland State University in 2018 with a specialty in AI/ML. After graduating, 
+            I came out as transgender. I'm working to
+            re-enter the workforce after spending a couple years taking care of my kids as a stay-at-home mom.
+            Currently I'm leveling up my web development skills by following online courses and developing 
+            my own personal projects. This site showcases those projects and also provides a outlet for me to 
+            practice my html and css skills. 
+        </p>
+        
+    </div>
+
     <h2>Projects</h2>
-    <a href='easterbubble.html'>Easter Bubbles Canvas Demo</a>
+    <div class="project-tile">
+        <h3><a href='physicsJSDemo.html'>PhysicsJS</a></h3>
+        <p>A simple 2D physics engine developed from scratch using vanilla javascript and visualized
+            with HTML5's canvas element. 
+        </p>
+    </div>
+    <div class="project-tile">
+        <h3><a href='easterbubble.html'>Easter Bubbles Canvas Demo</a></h3>
+        <p>A predecessor to PhysicsJS, this canvas demo is based on following a youtube tutorial by 
+            <a href='https://youtu.be/EO6OkltgudE'>Chris courses</a>. It's a simple visualization of colorful
+            circles bouncing around the screen. The circles react to mouse movements by growing large when they pass
+            near the mouse's curser.</p>
+    </div>
+    <div class="project-tile">
+        <h3><a href='thesis.html'>Master's Thesis: Object Localization in Images Using Reinforcement Learning</a></h3>
+        <p>For my Master's thesis, I developed a reinforcement learning model to improve object localization 
+            in images. I developed the model from scratch using Python, the Python Imaging Library (PIL), and the Scikit-Learn library. 
+        </p>
+        <a href="thesis_slides.html">Slides</a> <a href="thesis.pdf">Paper</a>
+    </div>
+    
 </body>
 </html>
