@@ -2,6 +2,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
 h1 {
     font-weight: bold;
 }
@@ -9,7 +10,13 @@ body {
     background-color: white);
 }
 nav {
-    background-color: #A993BF;
+    background-color: #66117d;
+    color: white;
+}
+
+nav a{
+    background-color: #66117d;
+    color: white;
 }
 
 div class="intro" {
