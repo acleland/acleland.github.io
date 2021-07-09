@@ -14,9 +14,9 @@
         <h2 class="title_name">Andrea Cleland</h2>
         <nav>
                 <ul class="nav_links">
-                    <li>
-                        <a href="#intro">Bio</a>
-                    </li>
+                    <!-- <li>
+                        <a href="bio.html">Bio</a>
+                    </li> -->
                     <li>
                         <a href="#projects">Projects</a>
                     </li>
@@ -28,46 +28,63 @@
                     </li>
                 </ul>
         </nav>
-        <a class="cta" href="#"><button>Contact</button></a>
+        <a class="cta" href="mailto:andreaclelan@gmail.com" target="_blank"><button>Contact</button></a>
     </header>
     <div class="main">
     <div class="intro">
         <img id="profilepic" src="Images/githubprofilepic.jfif">
-        <div><h2>Hi, I'm Andrea</h2>
-        <p>
-            I'm a budding software developer. I finished my Master's in Computer Science from 
-            Portland State University in 2018 with emphasis in Artifical Intelligence and Machine Learning. After graduating, 
-            I came out as transgender. I'm working to
-            re-enter the workforce after spending a couple years taking care of my kids as a stay-at-home mom.
-            Currently I'm leveling up my web development skills by following online courses and developing 
-            my own personal projects. This site showcases those projects and also provides a outlet for me to 
-            practice my html and css skills. 
-        </p></div>
-        
+        <div>
+            <h2>Hi, I'm Andrea</h2>
+            
+            <p>
+                I'm a budding software developer. I finished my Master's in Computer Science from 
+                Portland State University in 2018 with emphasis in Artifical Intelligence and Machine Learning. After graduating, 
+                I came out as transgender. I'm working to
+                re-enter the workforce after spending a couple years taking care of my kids as a stay-at-home mom.
+                Currently I'm leveling up my web development skills by following online courses and developing 
+                my own personal projects. This site showcases those projects and also provides a outlet for me to 
+                practice my html and css skills. 
+            </p>
+            <!-- <p>
+                Graduating with honors in physics in 2007, she has since had a diverse life experience working 
+                as an intern for nonprofits advocating for programs benefiting low income households in the United States, 
+                obtaining a graduate degree in economics in 2010 with an emphasis on natural resource economics, and a 
+                master's degree in computer science in 2018 with an emphasis on machine learning and artifical intelligence. 
+                She came out as transgender in April 2018. In the last two years she has focused on being a primary caregiver 
+                to her two children as well as developing her software skills, and is now returning to the workforce seeking 
+                employment in web development, data science, or other software engineering opportunities, especially in the 
+                fields of education, science, or health.
+            </p> -->
+        </div> 
     </div>
 
-    <h2 id=projects>Projects</h2>
-    <div class="project-tile">
-        <h3><a href='#physicsJSDemo'>PhysicsJS</a></h3>
-        <p>A simple 2D physics engine developed from scratch using vanilla javascript and visualized
-            with HTML5's canvas element. 
-        </p>
-        <div><a href="PhysicsDemos/BouncyPlanetsDemo/BouncyPlanetsDemo.html">Bouncy Planets Demo</a></div>
-    </div>
-    <div class="project-tile">
-        <h3><a href='easterbubble.html'>Easter Bubbles Canvas Demo</a></h3>
-        <p>A predecessor to PhysicsJS, this canvas demo is based on following a youtube tutorial by 
-            <a href='https://youtu.be/EO6OkltgudE'>Chris courses</a>. It's a simple visualization of colorful
-            circles bouncing around the screen. The circles react to mouse movements by growing large when they pass
-            near the mouse's curser.</p>
-    </div>
-    <div class="project-tile">
-        <h3><a href='thesis.html'>Master's Thesis: Object Localization in Images Using Reinforcement Learning</a></h3>
-        <p>For my Master's thesis, I developed a reinforcement learning model to improve object localization 
-            in images. I developed the model from scratch using Python, the Python Imaging Library (PIL), and the Scikit-Learn library. 
-        </p>
-        <a href="thesis_slides.html">Slides</a> <a href="thesis.pdf">Paper</a>
-    </div>
+    <div id="projects">
+    <h2 id="projects-heading">Projects</h2>
+    <ul id="project-list">
+        <li>
+            <h3>PhysicsJS</h3>
+            <div class="project-item">
+                <p class="project-description">
+                    A simple 2D physics engine that simulates the movements and interactions of rigid bodies in real time. 
+                    developed from scratch using vanilla javascript and visualized
+                    with HTML5's canvas element. 
+                </p>
+                <a href="PhysicsDemos/BouncyPlanetsDemo/BouncyPlanetsDemo.html">Bouncy Planets Demo</a>
+            </div>
+        </li>
+        <li>
+            <h3>Master's Thesis: Object Localization in Images Using Reinforcement Learning</h3>
+            
+            <p>
+                For my Master's thesis, I developed a reinforcement learning model to improve object localization 
+                in images. I developed the model from scratch using Python, the Python Imaging Library (PIL), and the Scikit-Learn library. 
+            </p>
+            <a href="Thesis/slides.pdf" target="_blank">Slides</a> <a href="Thesis/thesis.pdf" target="_blank">Paper</a>
+        </li>
+    </ul>
+   
+    
+</div>
 </div>
 </body>
 </html>
